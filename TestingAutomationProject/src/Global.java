@@ -13,5 +13,7 @@ public class Global {
 		System.out.println(driver.getCurrentUrl());
 		
 		driver.close();
+		
+		
 	}
 }
