@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.pages.searchpageTest">
+      <class name="com.qa.com.qa.pages.verifyUrl">
         <methods>
-          <include name="terminateBrowser"/>
-          <include name="verifyHomepageTitle"/>
-          <include name="launchBrowser"/>
+          <include name="verifyUrl"/>
         </methods>
-      </class> <!-- com.qa.pages.searchpageTest -->
+      </class> <!-- com.qa.com.qa.pages.verifyUrl -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
