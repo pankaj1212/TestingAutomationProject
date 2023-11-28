@@ -21,6 +21,9 @@ public class verifyUrl {
 		String expectedUrl = "https://www.officedepot.com/";
 		Assert.assertEquals(expectedUrl, actualUrl);
 		
+		
+		driver.get("hi");
+		
 		driver.close();
 	}
 }
